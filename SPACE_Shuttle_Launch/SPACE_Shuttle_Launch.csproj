@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Utilities\" />
+    <None Remove="Utilities\Messages\" />
+    <None Remove="Models\" />
+    <None Remove="IO\" />
+    <None Remove="Core\" />
+    <None Remove="Core\Contracts\" />
+    <None Remove="IO\Contracts\" />
+    <None Remove="Models\Enums\" />
+    <None Remove="Models\Contracts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Messages\" />
+    <Folder Include="Models\" />
+    <Folder Include="IO\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Contracts\" />
+    <Folder Include="IO\Contracts\" />
+    <Folder Include="Models\Enums\" />
+    <Folder Include="Models\Contracts\" />
+  </ItemGroup>
+</Project>
